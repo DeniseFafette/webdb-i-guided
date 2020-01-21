@@ -37,9 +37,30 @@ Note: not very flexible
 
 ## USING a Query Builder
 
+http://knexjs.org/
+
 Instead of "INSERT INTO users"
 
 table("users").insert()
+
+### GUIDE PROJECT NOTES
+
+SETUP
+run npm install
+install dependencies
+npm install knex sqlite3
+using posts.db3
+
+TEST SERVER - USE POSTMAN GET REQUEST
+npm run server
+
+CREATE A ROUTER HANDLER THAT HANDLES ERRORS in index.js
+
+WRITE SQL IN post-router.js
+
+
+
+
 
 
 
